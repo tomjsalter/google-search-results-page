@@ -148,8 +148,17 @@ hr {
 .row6 {
   grid-row-start: 5;
   grid-row-end: 6;
+  margin-bottom: 25px;
 }
-
+.row7 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.row8 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  margin-top: -10px;
+}
 
 /* RESULTS FEED */
 .resultsfeed {
@@ -266,10 +275,120 @@ hr {
   border-radius: 0px 0px 8px 8px;
 }
 
+.row6 h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #1a0dab;
+}
+
+.row6 h1:hover {
+  text-decoration: underline;
+}
+.imgbtn {
+  background-color: white;
+  border: solid thin rgb(218, 218, 218);
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 10px;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imgs {
+  height: 130px;
+  max-width: 170px;
+  object-fit: cover;
+  margin-right: 5px;
+  border: solid thin rgb(218, 218, 218);
+  border-radius: 4px 4px 4px 4px;
+}
+.imgoptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.more {
+  display: flex;
+  align-items: baseline;
+  margin-left: 4px;
+}
+.more img {
+  width: 16px;
+  margin-right: 8px;
+  align-self: baseline;
+}
+.moreimgs {
+  font-size: 1rem;
+  color: #1a0dab;
+  margin-top: 10px;
+}
+.moreimgs:hover {
+  text-decoration: underline;
+}
+.imgreport {
+  font-size: 0.8rem;
+  color: #70757a;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+/* PEOPLE ALSO SEARCHED FOR */
+.row8 ,h2, h3 {
+  font-weight: 400;
+}
+.row8 h2 {
+  margin-bottom: 20px;
+}
+.webbuilders {
+  border: solid thin rgb(218, 218, 218);
+  border-radius: 8px 8px 8px 8px;
+  padding: 20px 15px;
+}
+.webcontainer {
+  display: flex;
+  margin-top: 25px;
+}
+.website {
+  border: solid thin rgb(218, 218, 218);
+  border-radius: 8px 8px 8px 8px;
+  margin-right: 6px;
+  display: inline-block;
+  height: 161px;
+}
+.website p {
+  padding: 4px 7px;
+  font-size: 0.9rem;
+}
+.website img {
+  width: 96px;
+  height: 96px;
+  border-radius: 8px 8px 0px 0px;
+  object-fit: contain;
+}
+.morewebcontainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: solid thin rgb(218, 218, 218);
+  border-radius: 20px 20px 20px 20px;
+  width: 305px;
+  padding: 10px;
+  margin: 15px auto 0px;
+}
+.morewebcontainer img {
+  width: 14px;
+  margin-left: 8px;
+}
+.morewebsites {
+  color: #1a0dab;
+  font-size: 0.9rem;
+  border-style: none;
+  background-color: white;
+}
+
 
 /* FOOTER NAVBAR */
 footer {
-  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
