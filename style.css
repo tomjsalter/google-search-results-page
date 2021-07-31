@@ -4,9 +4,44 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 /* HEADER */
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px 25px;
+}
+
+.head-group-1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 46px;
+}
+
+.search-func {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px 3px rgba(214, 214, 214, 0.3);
+    border-radius: 25px;
+    height: 48px;
+    width: 690px;
+}
+
+.search-input {
+    margin-left: 20px;
+    border: none;
+    font-size: 1.02em;
+}
+
+.search-input:focus {
+    outline: none;
 }
