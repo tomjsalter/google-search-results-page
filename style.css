@@ -21,6 +21,13 @@ html {
     align-items: center;
 }
 
+.head-group-2 {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    justify-content: space-between;
+}
+
 .logo {
     width: 90px;
     margin-right: 46px;
