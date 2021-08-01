@@ -8,6 +8,7 @@ html {
     font-size: 16px;
 }
 
+
 /* HEADER */
 .page-header {
     display: flex;
@@ -70,7 +71,7 @@ html {
 }
 
 .signin-btn {
-    padding: 10px 18px;
+    padding: 10px 19px;
     background-color: rgb(26, 115, 232);
     color: white;
     border: none;
@@ -80,4 +81,36 @@ html {
 .signin-btn:hover {
     background-color: rgba(26, 115, 232, 0.9);
     box-shadow: 1px 1px 2px 1px rgba(26, 115, 232, 0.2);
+}
+
+
+/* SEARCH FILTER */
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    left: 185px;
+    width: 655px;
+}
+
+.serfil-items {
+    display: flex;
+}
+
+.serfil-items li {
+    list-style: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.serfil-items a {
+    text-decoration: none;
+}
+
+.serfil-tools {
+    padding: 4px 11px;
+    border-radius: 0px;
+    border: none;
 }
