@@ -140,9 +140,26 @@ html {
 .serfil-tools a {
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.1em;
     color: rgb(95, 99, 104);
 }
 
 .serfil-tools a:hover {
     color: black;
+}
+
+figure hr {
+    margin-top: 8px;
+    border: none;
+    height: 1px;
+    background-color: rgba(182, 182, 182, 0.2);
+}
+
+/* RESULTS GRID TEMPLATE */
+.results-grid {
+    display: grid;
+    grid-template-columns: 655px;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    justify-items: start;
 }
