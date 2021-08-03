@@ -6,6 +6,11 @@
 
 html {
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -90,7 +95,7 @@ html {
     justify-content: space-between;
     align-items: baseline;
     position: relative;
-    left: 185px;
+    left: 180px;
     width: 655px;
 }
 
@@ -106,7 +111,6 @@ html {
 }
 
 .serfil-items a {
-    text-decoration: none;
     font-weight: 500;
 }
 
@@ -138,7 +142,6 @@ html {
 }
 
 .serfil-tools a {
-    text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
     color: rgb(95, 99, 104);
@@ -155,11 +158,43 @@ figure hr {
     background-color: rgba(182, 182, 182, 0.2);
 }
 
+
 /* RESULTS GRID TEMPLATE */
+.results-returned {
+    font-size: 0.9em;
+    margin-left: 180px;
+    margin-top: 10px;
+    color: rgb(112, 117, 122);
+}
+
 .results-grid {
     display: grid;
     grid-template-columns: 655px;
     grid-template-rows: auto;
-    row-gap: 50px;
+    row-gap: 30px;
     justify-items: start;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+
+.results-link {
+    font-size: 0.9em;
+    color: rgb(32, 33, 36);
+    line-height: 1.4em;
+}
+
+.results-grid-item h2 {
+    font-size: 1.3em;
+    line-height: 1.8em;
+    font-weight: 500;
+    color: rgb(26, 13, 171);
+}
+
+.results-grid-item h2 a {
+    color: rgb(26, 13, 171);
+}
+
+.results-grid-item p {
+    font-size: 0.9em;
+    color: rgb(77, 81, 86);
 }
