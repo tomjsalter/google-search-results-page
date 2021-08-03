@@ -114,6 +114,13 @@ html {
     color: rgb(95, 99, 104);
 }
 
+.serfil-items img {
+    height: 18px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
 .serfil-tools {
     padding: 6px 13px;
     border-radius: 2px;
@@ -126,7 +133,7 @@ html {
     padding: 6px 13px;
     border-radius: 2px;
     background-color: rgba(214, 214, 214, 0.15);
-    border: 1px solid rgba(214, 214, 214, 0.5);
+    border: 1px solid rgba(214, 214, 214, 1);
     box-shadow: 1px 1px 1px 0px rgba(182, 182, 182, 0.7);
 }
 
