@@ -247,3 +247,24 @@ figure hr {
     font-size: 0.8em;
     color: rgb(112, 117, 122);
 }
+
+/* RELATED SEARCHES */
+
+.related-container {
+    display: flex;
+    justify-content: space-between;
+    width: 655px;
+}
+
+.img-tile {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: contain;
+    background-color: rgba(0,0,0,.03);
+    border-radius: 10px;
+}
+
+.related-container a {
+    font-size: 0.93em;
+}
