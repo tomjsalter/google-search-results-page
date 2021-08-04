@@ -223,6 +223,27 @@ figure hr {
 }
 
 .alt-list li {
-    margin-top: 8px;
-    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.feedback-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-block hr {
+    width: 89%;
+    border: none;
+    height: 1px;
+    background-color: rgba(182, 182, 182, 0.2);
+}
+
+.alt-feedback {
+    font-size: 0.8em;
+    color: rgb(112, 117, 122);
 }
