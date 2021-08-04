@@ -250,10 +250,21 @@ figure hr {
 
 /* RELATED SEARCHES */
 
+.related-searches {
+    margin-bottom: 60px;
+}
+
 .related-searches h2 {
     font-weight: 500;
     font-size: 1.45em;
     line-height: 2em;
+}
+
+.related-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .related-container {
@@ -280,4 +291,41 @@ figure hr {
 
 .related-container a:hover {
     text-decoration: underline;
+}
+
+.related-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    padding: 7px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(214, 214, 214, 1);
+    background-color: white;
+    font-size: 0.9em;
+    color: #1a0dab;
+}
+
+.related-btn:hover {
+    background-color: rgba(214, 214, 214, 0.15);
+}
+
+.rbtn-icon {
+    width: 18px;
+    position: relative;
+    right: 105px;
+}
+
+.related-branded {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-color: rgba(0,0,0,.03);
+}
+
+.relser p {
+    position: relative;
+    right: 230px;
 }
