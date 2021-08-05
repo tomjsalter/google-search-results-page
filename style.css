@@ -369,3 +369,25 @@ figure hr {
     margin: 10px;
     margin-right: 20px;
 }
+
+/* NAV SPRITES */
+.pagenav {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.g, .o {
+    background-image: url(images/nav_logo321.webp);
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 28px;
+}
+
+.g {
+    background-position: -24px 0px;
+}
+
+.o {
+    background-position: -54px 0px;
+    width: 18px;
+}
