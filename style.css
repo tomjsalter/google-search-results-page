@@ -249,11 +249,6 @@ figure hr {
 }
 
 /* RELATED SEARCHES */
-
-.related-searches {
-    margin-bottom: 60px;
-}
-
 .related-searches h2 {
     font-weight: 500;
     font-size: 1.45em;
@@ -336,4 +331,41 @@ figure hr {
 
 .related-searches .feedback-block {
     margin-top: 15px;
+}
+
+
+/* SUGGESTED SEARCHES */
+.suggested-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.sg1 {
+    margin-right: 8px;
+}
+
+.sg2 {
+    margin-left: 8px;
+}
+
+.suggested-item {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 15px;
+    font-weight: 700;
+    font-size: 1.07em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.suggested-item img {
+    width: 20px;
+    margin: 10px;
+    margin-right: 20px;
 }
