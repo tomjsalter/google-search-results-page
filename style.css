@@ -373,21 +373,59 @@ figure hr {
 /* NAV SPRITES */
 .pagenav {
     display: flex;
+    justify-content: center;
+    width: 655px;
+    margin-left: 170px;
     margin-bottom: 50px;
 }
 
-.g, .o {
+.pagenav li a {
+    margin-top: 40px;
+    font-size: 0.88em;
+    color: #4285f4;
+}
+
+.pagenav li a:hover {
+    text-decoration: underline;
+}
+
+.g, .red-o, .yellow-o, .gle {
     background-image: url(images/nav_logo321.webp);
     background-repeat: no-repeat;
-    height: 48px;
+    height: 44px;
     width: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .g {
     background-position: -24px 0px;
+    margin-right: 1px;
 }
 
-.o {
+.red-o {
     background-position: -54px 0px;
     width: 18px;
+    margin-right: 1px;
+}
+
+.yellow-o {
+    background-position: -74px 0px;
+    width: 19px;  
+    margin-right: 1px;
+}
+
+.gle {
+    background-position: -96px 0px;
+    width: 43px;  
+}
+
+.pagenav-next, .pagenav-navright {
+    position: relative;
+    left: 45px;
+}
+
+.pagenav-navright {
+    bottom: 48px;
 }
