@@ -429,3 +429,27 @@ figure hr {
 .pagenav-navright {
     bottom: 48px;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-size: 0.9em;
+    color: rgba(0,0,0,.54);
+    padding: 20px 0px;
+}
+
+footer hr {
+    margin: 10px 0px;
+}
+
+.foot-location, .foot-menu {
+    display: flex;
+    margin-left: 180px;
+}
+
+.foot-menu {
+    width: 290px;
+    justify-content: space-between;
+}
